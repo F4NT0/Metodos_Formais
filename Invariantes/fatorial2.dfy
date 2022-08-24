@@ -9,11 +9,20 @@ ensures f == Fat(n)
     f := 1;
     var i := 1;
     while i <= n
-        invariant 1 <= i <= n+1
-        invariant f == Fat(i-1)
+        decreases n-i //variante
+        invariant 1 <= i <= n+1 //invariante
+        invariant f == Fat(i-1) //invariante
     {
         f := f * i;
         i := i + 1;
     }
     return f;
 }
+
+// i | n | variante
+// 1 | 3 | 2
+// 2 | 3 | 1
+// 3 | 3 | 0
+// 4 | 3 | -1
+// variante = n - i
+// então é usado o decreases n-1
