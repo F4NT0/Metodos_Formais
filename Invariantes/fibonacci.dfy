@@ -31,7 +31,6 @@ ensures x == Fib(n)
 // 3 | 2
 // 4 | 3
 // 5 | 5
-
 // Teste da computação do Fibonnaci
 // i | n | x | y | n-1
 // 0 | 3 | 0 | 1 | 3
