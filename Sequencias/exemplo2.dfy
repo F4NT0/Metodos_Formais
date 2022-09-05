@@ -15,13 +15,15 @@ method Remover(a:array<int>, fim:nat, inicio:nat, n:nat)
         invariant i <= fim-(inicio+n)
         invariant a[..inicio] == old(a)[..inicio]
         invariant a[inicio..inicio+i] == old(a)[inicio+n..inicio+n+i]
-         
+        invariant a[inicio+i..fim] == old(a)[inicio+i..fim]
+        invariant inicio+n+i >= inicio+i
     {
         // Teste de mesa
         // i | a[inicio + i] := a[inicio + n + i]
         // 0 | a[2] = a[4]
         // 1 | ja resolvido
         a[inicio+i] := a[inicio+n+i];
+        i := i + 1;
     }
 
 }
