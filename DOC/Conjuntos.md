@@ -4,7 +4,7 @@
 
 ---
 
-### $${\color{lightblue}Entendendo \space um \space Conjunto}$$
+### $${\boxed{\color{lightblue}Entendendo \space um \space Conjunto}}$$
 
 * Um conjunto é uma coleção de elementos
 
@@ -17,7 +17,7 @@
 
 ---
 
-### $${\color{lightgreen}Verificando \space elementos \space em \space um \space conjunto}$$
+### $${\boxed{\color{lightgreen}Verificando \space elementos \space em \space um \space conjunto}}$$
 
 * Podemos verificar se um elementos **pertencem** a um conjunto.
 
@@ -46,7 +46,7 @@ Essa simbologia acima significa que o conjunto A possui um elemento `x` pertence
 
 ---
 
-### $${\color{yellow}Entendendo \space Subconjuntos}$$
+### $${\boxed{\color{yellow}Entendendo \space Subconjuntos}}$$
 
 Um subconjunto é um conjunto onde todos os elementos dele pertencem a um outro conjunto.
 
@@ -76,5 +76,7 @@ $$B \subset A$$
 
 Com isso estamos dizendo que o conjunto B **está contido dentro** do conjunto A
 
+<table align="center"><tr><td align="center" width="9999">
 <img src="images/Contido1.png">
+</td></tr></table
 
