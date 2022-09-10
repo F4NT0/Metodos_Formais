@@ -38,7 +38,7 @@ Conjuntos podem também ser descritivos através de uma especificação das prop
 
 Podemos dizer se um elemento pertence a um conjunto particular, como dos **Números Naturais**.
 
-$$A =  \lbrace x \in N \space | \space x < 5 \rbrace$$
+$$A =  \lbrace x \in \mathbb{N} \space | \space x < 5 \rbrace$$
 
 Essa simbologia acima significa que o conjunto A possui um elemento `x` pertencente aos números naturais, onde `x` é um número menor do que 5, dessa forma está querendo dizer que os números pertencente aos conjunto A são:
 
@@ -52,7 +52,7 @@ Um subconjunto é um conjunto onde todos os elementos dele pertencem a um outro 
 
 Podemos dizer que temos um conjunto de números naturais que vai de 0 á 10
 
-$$A = \lbrace x \in N \space|\space x <= 10 \rbrace$$
+$$A = \lbrace x \in \mathbb{N} \space|\space x <= 10 \rbrace$$
 
 ou seja
 
@@ -60,7 +60,7 @@ A = {0,1,2,3,4,5,6,7,8,9,10}
 
 Agora temos um conjunto B que tem números pares até 0 10.
 
-$$B = \lbrace x \in N \space|\space x/2 \rbrace$$
+$$B = \lbrace x \in \mathbb{N} \space|\space x/2 \rbrace$$
 
 ou seja
 
