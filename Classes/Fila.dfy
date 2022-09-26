@@ -33,6 +33,11 @@ class {:autocontracts} FilaInt
     method Enfileirar(e:int)
         requires |Conteudo| < TamanhoMaximo
         ensures Conteudo == old(Conteudo) + [e]
+    {
+        a[cauda] := e;
+        cauda := cauda +1;
+        Conteudo := Conteudo + [e]; 
+    }
     
     method Desinfileirar() returns (e:int)
         requires |Conteudo| > 0
@@ -41,4 +46,12 @@ class {:autocontracts} FilaInt
     
     method Quantidade() returns (q:nat)
         ensures q == |Conteudo|
+}
+
+method Main()
+{
+    var f := new FilaInt(5);
+    f.Enfileirar(1);
+    f.Enfileirar(2);
+    assert f.Conteudo == [1,2];
 }
