@@ -14,7 +14,7 @@ class {:autocontracts} FilaInt
         max > 0 && 
         max == a.Length &&
         cauda <= max &&
-        Conteudo == a[0..max] &&
+        Conteudo == a[0..cauda] &&
         TamanhoMaximo == max 
     }
 
@@ -22,6 +22,13 @@ class {:autocontracts} FilaInt
         requires tm > 0
         ensures Conteudo == []
         ensures TamanhoMaximo == tm
+    {
+        max := tm;
+        a := new int[tm];
+        cauda := 0;
+        Conteudo := [];
+        TamanhoMaximo := max;
+    }
 
     method Enfileirar(e:int)
         requires |Conteudo| < TamanhoMaximo
