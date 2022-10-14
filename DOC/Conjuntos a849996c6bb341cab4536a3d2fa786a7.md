@@ -63,7 +63,7 @@ O resultado dessa verificação é um Booleano, ou seja, um valor True ou False.
 
 Vamos usar o exemplo da relação de pertinência para mostrar como é a visualização de um conjunto graficamente.
 
-![Apresentação gráfica de um conjunto,sendo verificado seus elementos](Conjuntos%20a849996c6bb341cab4536a3d2fa786a7/Diagrama_sem_nome.drawio(2).png)
+![Apresentação gráfica de um conjunto,sendo verificado seus elementos](Diagrama_sem_nome.drawio(2).png)
 
 Apresentação gráfica de um conjunto,sendo verificado seus elementos
 
