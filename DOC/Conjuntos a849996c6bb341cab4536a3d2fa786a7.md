@@ -86,7 +86,7 @@ Com essa explicação, podemos ver essa explicação na seguinte forma matemáti
 
 De uma forma visual dos tipos de inclusão:
 
-![Exemplo de Inclusão entre o Conjunto B com o Conjunto externo A](Conjuntos%20a849996c6bb341cab4536a3d2fa786a7/incluso.png)
+![Exemplo de Inclusão entre o Conjunto B com o Conjunto externo A](incluso.png)
 
 Exemplo de Inclusão entre o Conjunto B com o Conjunto externo A
 
@@ -191,7 +191,7 @@ Forma visual:
 
              
 
-![Uniao.png](Conjuntos%20a849996c6bb341cab4536a3d2fa786a7/Uniao.png)
+![Uniao.png](Uniao.png)
 
 ### Intersecção entre conjuntos
 
@@ -221,7 +221,7 @@ $$
 
 Forma visual:
 
-![interseccao.png](Conjuntos%20a849996c6bb341cab4536a3d2fa786a7/interseccao.png)
+![interseccao.png](interseccao.png)
 
 ## Diferença entre conjuntos
 
@@ -253,7 +253,7 @@ $$
 
 Forma visual:
 
-![diferenca.png](Conjuntos%20a849996c6bb341cab4536a3d2fa786a7/diferenca.png)
+![diferenca.png](diferenca.png)
 
 ## Produto Cartesiano de conjuntos
 
@@ -275,7 +275,7 @@ Agora para criar os planos cartesianos, pegamos cada valor do conjunto A e fazer
 
 Uma forma visual de ver os dados sendo transformados:
 
-![produtocartesiano.png](Conjuntos%20a849996c6bb341cab4536a3d2fa786a7/produtocartesiano.png)
+![produtocartesiano.png](produtocartesiano.png)
 
 Umas informações importantes sobre produtos cartesianos:
 
@@ -322,7 +322,7 @@ $R_1$, $R_2$ e $R_3$ são relações do conjunto A em conjunto B, pois seus elem
 
 Podemos representar os pares ordenados entre conjuntos conectando os valores entre flechas de um conjunto no outro.
 
-![relacaobinaria.png](Conjuntos%20a849996c6bb341cab4536a3d2fa786a7/relacaobinaria.png)
+![relacaobinaria.png](relacaobinaria.png)
 
 Podemos representar matematicamente uma relação binária como abaixo:
 
